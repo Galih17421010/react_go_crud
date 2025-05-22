@@ -9,7 +9,7 @@ const Home: FC = () => {
                 <p className="col-md-12 fs-4">Learning Golang React Typescript</p>
                 <hr />
                 <Link to="/register" className="btn btn-primary btn-lg me-3">Register</Link>
-                <Link to="/login" className="btn btn-secondary btn-lg">Login</Link>
+                <Link to="/login" className="btn btn-success btn-lg">Login</Link>
             </div>
         </div>
     )

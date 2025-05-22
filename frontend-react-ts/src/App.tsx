@@ -20,7 +20,7 @@ const App: FC = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a href="https://github/Galih17421010" target="_blank" className="nav-link active" aria-current="page">Galih Agus Saputra</a>
+                <a href="https://github.com/Galih17421010" target="_blank" className="nav-link active" aria-current="page">Galih Agus Saputra</a>
               </li>
             </ul>
           </div>
