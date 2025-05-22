@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Cookies from "js-cookie";
 import { useNavigate } from "react-router";
-import { AuthContext } from "./AuthContext";
+import { AuthContext } from "../../context/AuthContext";
 
 
 export const useLogout = (): (() => void) => {
