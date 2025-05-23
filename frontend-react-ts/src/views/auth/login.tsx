@@ -50,7 +50,7 @@ const Login: FC = () => {
                     <div className="card-body">
                         <h4 className="fw-bold text-center">Login</h4>
                         <hr />
-                        {errors.Error && <div className="alert aler-danger mt-2 rounded-4">Username or Password is incorrect</div> }
+                        {errors.Error && <div className="alert alert-danger mt-2 rounded-4">Username or Password is incorrect</div> }
                         <form onSubmit={handleLogin}>
                             <div className="form-group mb-3">
                                 <label className="mb-1 fw-bold">Username</label>

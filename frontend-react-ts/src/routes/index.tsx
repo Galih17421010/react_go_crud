@@ -4,6 +4,7 @@ import { Navigate, Route, Routes } from "react-router";
 import Home from "../views";
 import Register from "../views/auth/register";
 import Login from "../views/auth/login";
+import Dashboard from "../views/admin/dashboard";
 
 export default function AppRoutes() {
     const auth = useContext(AuthContext);
@@ -20,6 +21,9 @@ export default function AppRoutes() {
 
             {/* login */}
             <Route path="/login" element={isAuthenticated ? <Navigate to="/admin/dashboard" replace /> : <Login />} />
+
+            {/* admin dashboard */}
+            <Route path="/admin/dashboard" element={isAuthenticated ? <Dashboard /> : <Navigate to="/login" replace /> } />
         </Routes>
     )
 }
